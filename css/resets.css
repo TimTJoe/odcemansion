@@ -7,10 +7,13 @@
     --dark-gray: #4d4d4d;
     --gray: #aaaaaa;
     --light-gray: #e0e5ef;
+    --white: #ffffff;
 
     --font-sm: 14px;
     --font-md: 16px;
     --font-lg: 20px;
+
+    --space-sm: 8px;
 
 }
 
@@ -19,9 +22,14 @@
     margin: 0;
 }
 
+html {
+    height: 100vh;
+}
+
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    height: inherit;
 }
 
 img,
