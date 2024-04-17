@@ -1,8 +1,17 @@
 :root {
-    font-family: "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    --red: #b40909;
+    --blue: #1b3b6a;
+    --dark-blue: #051e3b;
+    --dark-gray: #4d4d4d;
+    --gray: #aaaaaa;
+    --light-gray: #e0e5ef;
+
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 20px;
+
 }
 
 * {
