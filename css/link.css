@@ -1,0 +1,16 @@
+.link {
+    text-decoration: unset;
+    color: var(--dark-blue);
+}
+
+.link:visited {
+    color: unset;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link.white {
+    color: var(--white);
+}
