@@ -136,13 +136,32 @@
     color: var(--white);
     position: relative;
     margin-top: 10%;
-    padding-top: 10%;
-    padding: 10% 12px 12px;
+    padding: 10% 0 ;
+}
+
+.footer .flexrow > * {
+    flex: 2;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer .icons {
+    display: flex;
+    gap: 12px;
+}
+
+.footer .icons img {
+    width: 30px;
+    height: 30px;
 }
 
 .footer .floated {
     position: absolute;
-    bottom: 90%;
+    bottom: 94%;
 }
 
 .footer a {
