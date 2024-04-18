@@ -14,3 +14,21 @@
 .link.white {
     color: var(--white);
 }
+
+.link.blue {
+    color: var(--dark-blue);
+}
+
+.link.primary {
+    color: var(--dark-blue);
+    font-weight: bolder;
+}
+
+.link.red {
+    color: var(--red);
+}
+
+.link.lg {
+    font-size: var(--font-lg);
+
+}

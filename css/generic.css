@@ -1,0 +1,47 @@
+/* SECTION CLASSES STYLES */
+.sections {
+    max-width: 80vw;
+    margin: 3% auto;
+}
+
+.sections.banner {
+    background-color: var(--light-gray);
+}
+
+.banner .article {
+    padding: 12px;
+}
+
+/** FLEX BOX & GRID **/
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+/** IMAGES **/
+.image {
+    max-width: 60%;
+}
+
+.image.lg {
+    min-width: 60%;
+    min-height: 350px;
+}
+
+/** LINE **/
+
+.line {
+    display: block;
+    height: 6px;
+    background-color: var(--red);
+    max-width: 30%;
+    border: unset;
+    margin: 8px 0;
+}
+
+/** PARAGRAPH **/
+
+.paragraph {
+    color: var(--dark-gray);
+}
