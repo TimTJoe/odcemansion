@@ -19,6 +19,10 @@
     flex-direction: row;
 }
 
+.flexrow>* {
+    flex: 1;
+}
+
 /** IMAGES **/
 .image {
     max-width: 60%;
@@ -27,6 +31,25 @@
 .image.lg {
     min-width: 60%;
     min-height: 350px;
+}
+
+.figure {
+    max-width: 270px;
+    background-color: var(--light-gray);
+    margin-right: 12px;
+}
+
+.figure img {
+    min-width: 100%;
+}
+
+.figure .caption {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.caption.bold {
+    font-weight: bolder;
 }
 
 /** LINE **/
@@ -40,8 +63,32 @@
     margin: 8px 0;
 }
 
+
 /** PARAGRAPH **/
+
+.header {
+    margin: 0 12px;
+}
 
 .paragraph {
     color: var(--dark-gray);
+}
+
+.paragraph.secondary {
+    color: var(--dark-gray);
+}
+
+.paragraph.cap {
+    text-transform: uppercase;
+}
+
+/** STORY **/
+
+.story .article {
+    padding: 10px;
+}
+
+.story .inner {
+    margin-right: 12px;
+    border-right: thin solid var(--light-gray);
 }

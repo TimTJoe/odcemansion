@@ -30,5 +30,19 @@
 
 .link.lg {
     font-size: var(--font-lg);
+}
 
+.link.sm {
+    font-size: var(--font-sm);
+}
+
+.link.secondary {
+    color: var(--md-light-gray);
+    display: block;
+    margin-top: 17px;
+    border-bottom: thin solid var(--light-gray);
+}
+
+.link.secondary:hover {
+    color: var(--red);
 }
