@@ -1,5 +1,3 @@
-.navigation {}
-
 .navigation .head {
     display: grid;
     place-items: center;
@@ -24,5 +22,51 @@
 .menu img {
     width: 18px;
     height: 18px;
-    margin-left: 12px;
+    margin-left: 22px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropmenu {
+    position: absolute;
+    flex-direction: column;
+    width: 200px;
+    min-height: 250px;
+    background-color: var(--red);
+    top: 34px;
+    display: none;
+}
+
+.dropdown:hover .dropmenu {
+    display: flex;
+}
+
+.dropdown .link {
+    padding-right: 22px;
+}
+
+.dropmenu .dropitems {
+    text-decoration: none;
+    color: var(--white);
+    padding: 12px 0;
+}
+
+.dropitems:hover {
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+
+/** CARET **/
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--white);
+    position: absolute;
+    top: 10px;
+    right: 2px;
+
 }
